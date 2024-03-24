@@ -18,7 +18,6 @@ body, html {
   background-image: url('fondo.jpg'); /* Ruta de imagen de fondo */
   background-size: cover;
   background-position: center;
-  /* filter: blur(5px); */
 }
 .corona {
     width: 150px; /* Ancho de la imagen */
@@ -27,8 +26,6 @@ body, html {
     top: 0; /* Posicionar en la parte superior */
     left: 50%; /* Posicionar en el centro horizontal */
     transform: translateX(-50%); /* Centrar horizontalmente */
-	/* box-shadow: 0 0px 0px rgba(0, 0, 0, 0.5); /* Añadir sombra a la imagen */ */
-
 }
 .content {
   position: relative;
@@ -38,19 +35,12 @@ body, html {
   align-items: center;
   justify-content: center;
   height: 100%;
-  top: 150px; /* Ajustar posición desde la parte superior */
+  top: 150px; Ajustar posición desde la parte superior
 }
-
-/* @font-face { */
-    /* font-family: 'MiFuente'; */
-    /* src: url('LTPerfume-2.ttf') format('truetype'); /* Ruta real del archivo de fuente */ */
-    /* /* Otros formatos de fuente si es necesario */ */
-/* } */
 
 .title {
   font-size: 50px;
   color: white;
-  /* font-family: 'MiFuente', sans-serif; /* Utilizar la fuente personalizada y luego una fuente de respaldo */ */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -91,13 +81,36 @@ body, html {
   background-color: transparent; /* Hacemos el fondo transparente */
 }
 
-/* Estilos galeria*/
+/* Galeria*/
+
+.section-bannergaleria{
+  padding: 10px 0; /* Padding superior e inferior de 10px */
+  margin: 0 auto; /* Margen superior e inferior de 10px */
+  position: relative;
+  background-image: url('fondow1.jpg');
+  background-size: cover; /* Para cubrir toda la sección */
+  background-position: center; /* Para centrar la imagen de fondo */
+}
+
+.section-container {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url('fondow1.jpg');
+  background-size: cover; /* Para cubrir toda la sección */
+  background-position: center; /* Para centrar la imagen de fondo */
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre el encabezado y la galería */
+}
 
 .gallery-container {
   margin-top: 50px;
   width: 80%;
   max-width: 800px;
-  margin: 50px auto;
+  margin: 0 auto; /* Marge superior de seccion */
+  /* margin: 50px auto 0 auto; /* Marge superior de seccion */ */
   position: relative;
 }
 
@@ -124,7 +137,6 @@ body, html {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: white;
   opacity: 0.5;
   display: flex;
