@@ -83,11 +83,27 @@ body, html {
 
 /* Galeria*/
 
+.padres-imagen{
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios en blanco adicionales */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
+}
+
+.invita-imagen{
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios en blanco adicionales */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
+}
+
 .section-bannergaleria{
   padding: 10px 0; /* Padding superior e inferior de 10px */
   margin: 0 auto; /* Margen superior e inferior de 10px */
   position: relative;
-  background-image: url('fondow1.jpg');
+  background-image: url('fondow1a.jpg');
   background-size: cover; /* Para cubrir toda la sección */
   background-position: center; /* Para centrar la imagen de fondo */
 }
@@ -95,14 +111,14 @@ body, html {
 .section-container {
   margin-top: 0;
   padding-top: 0;
-  background-image: url('fondow1.jpg');
+  background-image: url('fondow1a.jpg');
   background-size: cover; /* Para cubrir toda la sección */
   background-position: center; /* Para centrar la imagen de fondo */
 }
 
 .gallery-header {
   text-align: center;
-  margin-bottom: 20px; /* Espacio entre el encabezado y la galería */
+  margin-top: 20px; /* Espacio entre el encabezado y la galería */
 }
 
 .gallery-container {

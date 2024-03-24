@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+});
+
+document.addEventListener('DOMContentLoaded', function() {
   var fechaObjetivo = new Date('2024-04-26T00:00:00'); // Fecha objetivo (Año, Mes, Día, Horas, Minutos, Segundos)
   
   function actualizarContador() {
