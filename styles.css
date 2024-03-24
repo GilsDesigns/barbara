@@ -83,6 +83,26 @@ body, html {
 
 /* Galeria*/
 
+.boton-rosa {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F4BAAE; /* Color rosa */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 20px auto; /* Espacio superior e inferior de 20px y centrado horizontalmente */
+  display: block; /* Para centrar verticalmente */
+  line-height: 40px; /* Igual a la altura del botón */
+  width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.boton-rosa:hover {
+  background-color: #F09A88; /* Color rosa más oscuro al pasar el cursor */
+}
+
 .padres-imagen{
   width: 100%;
   height: auto; /* Para mantener la proporción de la imagen */
