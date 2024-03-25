@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var fechaObjetivo = new Date('2024-04-26T00:00:00'); // Fecha objetivo (Año, Mes, Día, Horas, Minutos, Segundos)
+  var fechaObjetivo = new Date('2024-04-26T19:00:00'); // Fecha objetivo (Año, Mes, Día, Horas, Minutos, Segundos)
   
   function actualizarContador() {
     var ahora = new Date();
