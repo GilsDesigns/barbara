@@ -103,6 +103,35 @@ body, html {
   background-color: #F09A88; /* Color rosa más oscuro al pasar el cursor */
 }
 
+.boton-rosa2 {
+  position: absolute; /* Establece la posición absoluta */
+  top: 70%; /* Alinea el botón en la mitad superior del contenedor */
+  left: 50%; /* Alinea el botón en la mitad izquierda del contenedor */
+  transform: translate(-50%, -50%); /* Centra el botón horizontal y verticalmente */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F4BAAE; /* Color rosa */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 20px auto; /* Espacio superior e inferior de 20px y centrado horizontalmente */
+  display: block; /* Para centrar verticalmente */
+  line-height: 40px; /* Igual a la altura del botón */
+  width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.boton-rosa2:hover {
+  background-color: #F09A88; /* Color rosa más oscuro al pasar el cursor */
+}
+
+.section-asistencia {
+  position: relative; /* Establece la posición relativa para que los elementos absolutamente posicionados se basen en este contenedor */
+}
+
+
 .padres-imagen{
   width: 100%;
   height: auto; /* Para mantener la proporción de la imagen */
@@ -143,6 +172,25 @@ body, html {
   max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
   margin-bottom: 20px; /* Añade un margen en la parte inferior de la imagen */
 }
+
+.invita-sobres{
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios en blanco adicionales */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
+  margin-bottom: 20px; /* Añade un margen en la parte inferior de la imagen */
+}
+
+.invita-asistencia{
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios en blanco adicionales */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
+  margin-bottom: 20px; /* Añade un margen en la parte inferior de la imagen */
+}
+
 
 .section-bannergaleria{
   padding: 10px 0; /* Padding superior e inferior de 10px */
