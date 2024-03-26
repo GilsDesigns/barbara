@@ -131,6 +131,18 @@ body, html {
   position: relative; /* Establece la posición relativa para que los elementos absolutamente posicionados se basen en este contenedor */
 }
 
+.section-instagram{
+  margin-top: 20px; /* Ajusta el valor según el espacio que desees entre los divs */
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.instagram{
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios en blanco adicionales */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  max-width: 100%; /* Para evitar que la imagen se desborde de su contenedor */
+}
 
 .padres-imagen{
   width: 100%;
